@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64A504CE2A90790C00627851 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A504CD2A90790B00627851 /* TLButton.swift */; };
+		64B090982A910A0400F4F57B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B090972A910A0400F4F57B /* Extensions.swift */; };
 		64B62E452A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E442A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift */; };
 		64B62E492A904F2500F3C193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B62E482A904F2500F3C193 /* Assets.xcassets */; };
 		64B62E4D2A904F2500F3C193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B62E4C2A904F2500F3C193 /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		64A504CD2A90790B00627851 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		64B090972A910A0400F4F57B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		64B62E412A904F2300F3C193 /* 5-swiftConcepts-firebaseAuth-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-swiftConcepts-firebaseAuth-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B62E442A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __swiftConcepts_firebaseAuth_todoApp.swift; sourceTree = "<group>"; };
 		64B62E482A904F2500F3C193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				64B62E5A2A90569900F3C193 /* GoogleService-Info.plist */,
 				64B62E442A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift */,
+				64B090972A910A0400F4F57B /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				64B62E6F2A90627000F3C193 /* User.swift in Sources */,
 				64B62E6D2A905EE700F3C193 /* RegisterView.swift in Sources */,
 				64B62E772A9062F100F3C193 /* ToDoListViewViewModel.swift in Sources */,
+				64B090982A910A0400F4F57B /* Extensions.swift in Sources */,
 				64B62E652A905E5600F3C193 /* ToDoListView.swift in Sources */,
 				64B62E7B2A90631800F3C193 /* NewItemViewViewModel.swift in Sources */,
 				64B62E712A90627E00F3C193 /* ToDoListItem.swift in Sources */,
