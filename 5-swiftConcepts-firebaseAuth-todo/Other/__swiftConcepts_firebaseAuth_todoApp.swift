@@ -17,7 +17,7 @@ struct __swiftConcepts_firebaseAuth_todoApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
