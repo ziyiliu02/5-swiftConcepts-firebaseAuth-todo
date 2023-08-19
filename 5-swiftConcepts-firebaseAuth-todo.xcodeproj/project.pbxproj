@@ -30,6 +30,7 @@
 		64B62E7B2A90631800F3C193 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E7A2A90631800F3C193 /* NewItemViewViewModel.swift */; };
 		64B62E7D2A90632400F3C193 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E7C2A90632400F3C193 /* LoginViewViewModel.swift */; };
 		64B62E7F2A90633000F3C193 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E7E2A90633000F3C193 /* RegisterViewViewModel.swift */; };
+		64B62E812A906BF500F3C193 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E802A906BF500F3C193 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		64B62E7A2A90631800F3C193 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		64B62E7C2A90632400F3C193 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		64B62E7E2A90633000F3C193 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		64B62E802A906BF500F3C193 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				64B62E682A905ECC00F3C193 /* NewItemView.swift */,
 				64B62E6A2A905EDC00F3C193 /* LoginView.swift */,
 				64B62E6C2A905EE700F3C193 /* RegisterView.swift */,
+				64B62E802A906BF500F3C193 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B62E792A90630B00F3C193 /* ToDoListItemViewViewModel.swift in Sources */,
+				64B62E812A906BF500F3C193 /* HeaderView.swift in Sources */,
 				64B62E692A905ECC00F3C193 /* NewItemView.swift in Sources */,
 				64B62E7F2A90633000F3C193 /* RegisterViewViewModel.swift in Sources */,
 				64B62E6B2A905EDC00F3C193 /* LoginView.swift in Sources */,
