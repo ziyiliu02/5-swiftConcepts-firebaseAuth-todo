@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64A504CE2A90790C00627851 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A504CD2A90790B00627851 /* TLButton.swift */; };
 		64B62E452A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B62E442A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift */; };
 		64B62E492A904F2500F3C193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B62E482A904F2500F3C193 /* Assets.xcassets */; };
 		64B62E4D2A904F2500F3C193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B62E4C2A904F2500F3C193 /* Preview Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64A504CD2A90790B00627851 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		64B62E412A904F2300F3C193 /* 5-swiftConcepts-firebaseAuth-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-swiftConcepts-firebaseAuth-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B62E442A904F2300F3C193 /* __swiftConcepts_firebaseAuth_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __swiftConcepts_firebaseAuth_todoApp.swift; sourceTree = "<group>"; };
 		64B62E482A904F2500F3C193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				64B62E6A2A905EDC00F3C193 /* LoginView.swift */,
 				64B62E6C2A905EE700F3C193 /* RegisterView.swift */,
 				64B62E802A906BF500F3C193 /* HeaderView.swift */,
+				64A504CD2A90790B00627851 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				64B62E6B2A905EDC00F3C193 /* LoginView.swift in Sources */,
 				64B62E7D2A90632400F3C193 /* LoginViewViewModel.swift in Sources */,
 				64B62E732A9062CF00F3C193 /* MainViewViewModel.swift in Sources */,
+				64A504CE2A90790C00627851 /* TLButton.swift in Sources */,
 				64B62E672A905EBC00F3C193 /* ToDoListItemView.swift in Sources */,
 				64B62E612A905E0000F3C193 /* MainView.swift in Sources */,
 				64B62E752A9062E100F3C193 /* ProfileViewViewModel.swift in Sources */,
