@@ -10,14 +10,19 @@ import Foundation
 
 class MainViewViewModel: ObservableObject {
     
-    @Published var currentUserId: String = ""
-    private var handler: AuthStateDidChangeListenerHandle?
+//    @Published var currentUserId: String = ""
+//    private var handler: AuthStateDidChangeListenerHandle?
+      var currentUserId: String?
     
     init() {
-        self.handler = Auth.auth().addStateDidChangeListener { [weak self] _, user in
-            DispatchQueue.main.async {
-                self?.currentUserId = user?.uid ?? ""
-            }
+//        self.handler = Auth.auth().addStateDidChangeListener { [weak self] _, user in
+//            DispatchQueue.main.async {
+//                self?.currentUserId = user?.uid ?? ""
+//            }
+//        }
+        
+        if let user = Auth.auth().currentUser {
+            currentUserId = user.uid
         }
     }
     
